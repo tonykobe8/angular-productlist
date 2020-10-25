@@ -6,9 +6,7 @@ import { HelloComponent } from './hello.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AppRoutingModule} from './app-routing.module';
-
 import { RouterModule, Routes } from '@angular/router';
-
 import { ProductsListComponent } from './products-list/products-list.component';
 import { ProductsComponent } from './products/products.component';
 
