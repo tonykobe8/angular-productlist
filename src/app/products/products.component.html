@@ -1,3 +1,17 @@
-<p>
-products works!
-</p>
+
+<div class="example-container">
+<mat-form-field appearance="fill">
+<input #Name="ngModel" placeholder="type name" ngModel name="Name" matInput>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+<input #Price="ngModel" placeholder="type Price" ngModel name="Price" matInput>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+<input #Description="ngModel" placeholder="type Description" ngModel name="Description" matInput>
+</mat-form-field>
+
+
+<br>
+<button>save</button>
